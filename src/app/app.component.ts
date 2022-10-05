@@ -32,6 +32,7 @@ export class AppComponent {
     // from([1, 2, 3, 4]).subscribe((item) => {
     //   console.log(item);
     // });
+    //
     // // step 2 - handle next, error, complete
     // of(1, 2, 3, 4).subscribe({
     //   next: (item) => console.log(`resulting item... ${item}`),
@@ -43,10 +44,11 @@ export class AppComponent {
     //   error: (item) => console.log(`error item... ${item}`),
     //   complete: () => console.log('complete!'),
     // });
+    //
     // // step 3 - show the use of pipe with tap, map, take
-    // from([1, 2, 3, 4])
+    // from(this.data)
     //   .pipe(
-    //     tap((item) => console.log(`tap ${item}`)),
+    //     tap((item) => console.log(`tap ${item}`))
     //     // map((item) => item * 2),
     //     // take(3)
     //   )
