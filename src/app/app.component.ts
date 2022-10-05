@@ -7,7 +7,7 @@ import { from, interval, Observable, of, tap, take, map } from 'rxjs';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  name = 'Tampacc 2022 - Sample1';
 
   // step 4 - replace hard-coded values with variable
   data = [1, 2, 3, 4, 5];
